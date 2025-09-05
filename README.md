@@ -6,7 +6,7 @@
 
 ## What it does
 - Tracks **Rayke** and **Gambit** ability timers for Rune Fencer.
-- Colors timers based on active runes at cast time.
+- Colors timers based on active runes at job ability use.
 - Shows gradient text if two rune types are active.
 - Hides display when no timers are running.
 - Resets on zone change or logout.
