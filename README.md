@@ -1,3 +1,5 @@
+<img width="134" height="37" alt="ru" src="https://github.com/user-attachments/assets/4d39078a-8a36-4836-b5a4-d0227b25ca9d" />
+
 # Rune Addon – Quick Reference
 **Author:** Nsane  
 **Version:** 2025.9.3
