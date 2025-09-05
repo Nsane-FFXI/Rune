@@ -144,8 +144,8 @@ local function rebuild_text()
         return ('%s %ss'):format(label, fmt_time(remain))
     end
 
-    local l1 = line_for('Rayke',  timers.Rayke)
-    local l2 = line_for('Gambit', timers.Gambit)
+    local l1 = line_for('---Rayke---',  timers.Rayke)
+    local l2 = line_for('---Gambit--', timers.Gambit)
     if l1 then lines[#lines+1] = l1 end
     if l2 then lines[#lines+1] = l2 end
 
@@ -275,4 +275,5 @@ local function reset_all()
 end
 
 windower.register_event('zone change', reset_all)
+
 windower.register_event('logout', reset_all)
